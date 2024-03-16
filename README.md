@@ -8,32 +8,35 @@ You can install the library via npm:
 
 ```bash
 npm install qa-image-comparison
-Usage
-Initialization
-typescript
-Copy code
+```
+
+## Usage
+### Initialization
+```typescript 
 import { CompareImages } from 'qa-image-comparison';
 
 const comparer = new CompareImages();
-Comparing Images from Base64 Strings
-typescript
-Copy code
+```
+### Comparing Images from Base64 Strings
+```typescript 
 const image1Base64 = '...'; // Base64 string of the first image
 const image2Base64 = '...'; // Base64 string of the second image
 
 const result = await comparer.CompareImagesByBase64String(image1Base64, image2Base64);
 console.log('Images match:', result);
-Comparing Images from Disk
-typescript
-Copy code
+```
+### Comparing Images from Disk
+
+```typescript
 const imagePath1 = 'path/to/image1.jpg';
 const imagePath2 = 'path/to/image2.jpg';
 
 const result = await comparer.CompareImagesFromDisk(imagePath1, imagePath2);
 console.log('Images match:', result);
-Comparing Jimp Images Directly
-typescript
-Copy code
+```
+### Comparing Jimp Images Directly
+```typescript
+
 import Jimp from 'jimp';
 
 const image1 = await Jimp.read('path/to/image1.jpg');
@@ -41,8 +44,9 @@ const image2 = await Jimp.read('path/to/image2.jpg');
 
 const result = await comparer.CompareJimpImages(image1, image2);
 console.log('Images match:', result);
-API Reference
-CompareImages Class
+```
+## API Reference
+### CompareImages Class
 CompareImagesByBase64String(imageExpectedString: string, imageActualString: string): Promise<boolean>
 Compares two images provided as base64 strings.
 
@@ -71,4 +75,4 @@ Version
 Current version: 1.0.0
 
 Author
-[Your Name Here]
+Radoslav Radoslavov 
