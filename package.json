@@ -12,7 +12,7 @@
     },
     "keywords": ["automation", "automation qa", "image", "images", "comparison", "visual", "regression", "testing", "image comparison for selenium"],
     "author": "Radoslav Radoslavov",
-    "license": "MIT",
+    "license": "Apache-2.0 license",
     "dependencies": {
         "@types/jimp": "^0.2.28",
         "jimp": "^0.22.12",

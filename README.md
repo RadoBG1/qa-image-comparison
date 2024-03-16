@@ -75,7 +75,7 @@ imageActual: The actual Jimp image to be compared.
 Returns true if images match, false otherwise.
 
 ## License
-This library is licensed under the MIT License.
+This library is licensed under the Apache-2.0 license.
 
 ## Version
 Current version: 1.0.2
