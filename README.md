@@ -47,7 +47,7 @@ console.log('Images match:', result);
 ```
 ## API Reference
 ### CompareImages Class
-CompareImagesByBase64String(imageExpectedString: string, imageActualString: string): Promise<boolean>
+#### CompareImagesByBase64String(imageExpectedString: string, imageActualString: string): Promise<boolean>
 
 Compares two images provided as base64 strings.
 
@@ -56,7 +56,7 @@ imageActualString: Base64 string of the actual image to be compared.
 
 Returns a Promise resolving to true if images match, false otherwise.
 
-CompareImagesFromDisk(imageExpectedPath: string, imageActualPath: string): Promise<boolean>
+#### CompareImagesFromDisk(imageExpectedPath: string, imageActualPath: string): Promise<boolean>
 
 Compares images from file paths.
 
@@ -65,7 +65,7 @@ imageActualPath: Path to the actual image file to be compared.
 
 Returns a Promise resolving to true if images match, false otherwise.
 
-CompareJimpImages(imageExpected: Jimp, imageActual: Jimp): Promise<boolean>
+#### CompareJimpImages(imageExpected: Jimp, imageActual: Jimp): Promise<boolean>
 
 Compares two Jimp images directly.
 
@@ -78,7 +78,7 @@ Returns true if images match, false otherwise.
 This library is licensed under the MIT License.
 
 ## Version
-Current version: 1.0.0
+Current version: 1.0.2
 
 ## Author
 Radoslav Radoslavov 
