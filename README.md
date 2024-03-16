@@ -74,11 +74,11 @@ imageActual: The actual Jimp image to be compared.
 
 Returns true if images match, false otherwise.
 
-License
+## License
 This library is licensed under the MIT License.
 
-Version
+## Version
 Current version: 1.0.0
 
-Author
+## Author
 Radoslav Radoslavov 
