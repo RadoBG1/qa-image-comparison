@@ -1,6 +1,6 @@
 {
     "name": "qa-image-comparison",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "QA Image Comparison is a powerful library for comparing images, designed to aid in quality assurance processes. It provides utilities to compare images provided as base64 strings, from file paths, or directly using Jimp objects. With easy-to-use methods and customizable comparison thresholds, QA Image Comparison simplifies the task of image validation and verification in automated testing and visual regression testing workflows.",
     "files": [
         "dist"
