@@ -2,6 +2,7 @@
 
 QA Image Comparison is a library for comparing images, designed for quality assurance purposes. It leverages the Jimp library to provide utilities for comparing images provided as base64 strings, from file paths, or directly using Jimp objects.
 
+[![Node.js Package](https://github.com/RadoBG1/qa-image-comparison/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/RadoBG1/qa-image-comparison/actions/workflows/npm-publish.yml)
 ## Installation
 
 You can install the library via npm:
