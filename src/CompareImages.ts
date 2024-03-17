@@ -1,7 +1,7 @@
 import Jimp from "jimp";
 
 // Class for comparing images using the Jimp library
-export class CompareImages {
+export default class CompareImages {
     jimp: Jimp;
 
     /**

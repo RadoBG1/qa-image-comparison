@@ -78,7 +78,7 @@ Returns true if images match, false otherwise.
 This library is licensed under the Apache-2.0 license.
 
 ## Version
-Current version: 1.0.2
+Current version: 1.0.3
 
 ## Author
 Radoslav Radoslavov 
